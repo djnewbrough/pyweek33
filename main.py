@@ -13,7 +13,7 @@ STOVE_WIDTH, STOVE_HEIGHT = 800, 140
 
 VEL = 5
 MEATBALL_VEL = 10
-HAIRNET_VEL = 15
+HAIRBALL_VEL = 15 
 
 WIN = pygame.display.set_mode((WIDTH, HEIGHT))
 BORDER = pygame.Rect(0,0,WIDTH, HEIGHT)
@@ -23,7 +23,7 @@ pygame.display.set_caption('Snea Snakeroo0')
 POT = pygame.transform.scale(pygame.image.load(os.path.join('assets', 'pot.png')), (POT_WIDTH, POT_HEIGHT))
 BACKGROUND = pygame.transform.scale(pygame.image.load(os.path.join('assets', 'kitchen.png')), (WIDTH, HEIGHT))
 MEATBALL = pygame.transform.scale(pygame.image.load(os.path.join('assets', 'meatball.png')), (SPRITE_WIDTH, SPRITE_HEIGHT))
-HAIR = pygame.transform.scale(pygame.image.load(os.path.join('assets', 'hair.png')), (HAIR_WIDTH, HAIR_HEIGHT))
+HAIR = pygame.transform.scale(pygame.image.load(os.path.join('assets', 'hairball.png')), (HAIR_WIDTH, HAIR_HEIGHT))
 STOVE = pygame.transform.scale(pygame.image.load(os.path.join('assets', 'stove.png')),(STOVE_WIDTH, STOVE_HEIGHT))
 
 
